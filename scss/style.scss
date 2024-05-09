@@ -1,9 +1,11 @@
-@import "base/vars" ;
-@import "base/reset" ;
+@import "base/reset";
+@import "base/vars";
 
-@import "layout/index";
-@import "layout/servicio";
-@import "layout/nosotros";
-@import "layout/galeria";
-@import "layout/contacto";
+@import "layouts/index";
+@import "layouts/contacto";
+@import "layouts/galeria";
+@import "layouts/nosotros";
+@import "layouts/servicio";
+
+
 
