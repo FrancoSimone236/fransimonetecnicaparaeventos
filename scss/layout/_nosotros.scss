@@ -1,10 +1,10 @@
-  .tarjeta {
+.tarjeta {
   margin-top: 55px;
+  text-align: center;
   h5 {
     color: #2263c5;
     font-family: "Indie Flower", sans-serif;
     font-size: 40px;
-    text-align: center;
     font-weight: 700;
   }
   p{
@@ -16,7 +16,53 @@
   }
 
  card-group img{
-    width: 400px !important;
-    height: 400px!important;
+    max-width: 100% ;
+    height: auto ;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .tarjeta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .tarjeta {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+footer {
+  background-color: #f2f2f200;
+  padding: 40px 20px;
+  text-align: center;
+
+  .footer-content {
+      max-width: 800px;
+      margin: 0 auto;
+
+      h2 {
+          font-size: 24px;
+          margin-bottom: 20px;
+          color: #333;
+      }
+
+      p {
+          font-size: 16px;
+          line-height: 1.5;
+          margin-bottom: 10px;
+      }
   }
 }
