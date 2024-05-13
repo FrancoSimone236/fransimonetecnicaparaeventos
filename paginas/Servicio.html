@@ -1,64 +1,321 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicio</title>
-    <link rel="icon" href="/IMAGENES/Logo-removebg-preview.png">
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Dj Fran Simone</title>
+    <link rel="icon" href="../imagenes/logosinnombre.png" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-              <img src="./imagenes/Logo.png" alt="" srcset=""/></a>
-  
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                <a class="nav-link" href="./galeria.html">Galería</a>
-                <a class="nav-link" href="./contacto.html">Contacto</a>
+      <nav>
+        <div class="logo">
+          <img src="../imagenes/logosinnombre.png" alt="Logo" />
+        </div>
+        <ul class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./nosotros.html">Sobre Mí</a></li>
+          <li><a href="./galeria.html">Galeria</a></li>
+          <li><a href="./servicio.html">Servicios</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container-fluid title">
+      <h1>Servicios</h1>
+      <div class="services" style="padding: 20px">
+        <div class="card-group">
+          <div class="card">
+            <div id="carouselExampleFade1" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="../imagenes/fondo_sonido_1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../imagenes/fondo_sonido_3.jpeg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../imagenes/fondo_sonido_4.jpeg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
               </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleFade1"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleFade1"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Sonido & Iluminación</h5>
+              <p class="card-text">
+                Nuestro equipo de sonido de alta calidad garantiza una
+                reproducción nítida y potente de la música y el habla,
+                proporcionando una experiencia auditiva excepcional para tus
+                invitados. <br />
+                Con nuestra variedad de equipos de iluminación profesional,
+                podemos crear ambientes personalizados que complementen la
+                temática y el estilo de tu evento, desde iluminación ambiental
+                sutil hasta espectáculos de luces dinámicos y coloridos.
+              </p>
             </div>
           </div>
-        </nav>
-      </header>
-    <div class="card">
-    <h1> Servicios</h1>
-    <p>Nos enorgullece ofrecer una amplia gama de servicios para hacer de tu evento una experiencia inolvidable. </p>
+          <div class="card">
+            <div id="carouselExampleFade2" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="../imagenes/fondolaser_1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../imagenes/fondolaser_2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleFade2"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleFade2"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Pantallas Led & Laser</h5>
+              <p class="card-text">
+                Nuestra gama de pantallas LED de última generación ofrece
+                imágenes nítidas y vibrantes, garantizando una visualización
+                excepcional para presentaciones, videos, gráficos y más. Desde
+                pequeñas pantallas para eventos íntimos hasta grandes paneles
+                para conciertos y festivales, tenemos la tecnología adecuada
+                para tu evento. <br />
+                Con nuestros sistemas de láser de vanguardia, podemos crear
+                espectáculos visuales asombrosos que añaden un toque de magia y
+                emoción a cualquier evento. Desde patrones dinámicos hasta
+                proyecciones personalizadas, nuestros efectos láser son una
+                forma impactante de iluminar y animar tu espacio.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div id="carouselExampleFade3" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="../imagenes/fondodj_1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../imagenes/fondodj_2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleFade3"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleFade3"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Discjokey</h5>
+              <p class="card-text">
+                Nuestro extenso catálogo musical abarca todos los géneros y
+                épocas, asegurando que tengamos la música adecuada para
+                satisfacer los gustos de tu audiencia y mantener la energía alta
+                durante todo el evento.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div clas="sound">
-        <H2> SONIDO E ILUMINACION</H2>
-        <p> Desde el ambiente envolvente proporcionado por nuestro sistema de sonido de alta calidad, hasta la creación de atmósferas cautivadoras con nuestra iluminación profesional, cada detalle está diseñado para deleitar a tus invitados. </p>
-    </div>
-    
-    <div class="pant">
-        <h2> PANTALLAS LED Y LASERS</h2>
-        <P> Nuestras pantallas LED de última generación añaden un toque moderno y dinámico, proyectando imágenes nítidas y vibrantes que complementan perfectamente cualquier evento. Además, nuestra impresionante exhibición de láseres lleva la experiencia visual a un nivel completamente nuevo, creando efectos deslumbrantes que dejarán a todos boquiabiertos.</P>
-
-    </div>
-
-    <div class="dj">
-        <h2> DISCJOKEY</h2>
-        <P>¿Quieres música para animar la fiesta? Nuestros disc jockeys están listos para mezclar los mejores ritmos y mantener a todos en movimiento toda la noche</P>
-
-    </div>
-    
-   
-</body>
+  </body>
 </html>
+
+<!-- <div class="card-group">
+  
+  <div class="card">
+    <img src="./imagenes/evento3.png" class="card-img-top" style="height: 30rem;">
+  </div>
+
+  <div class="card text-center" style="width: 18rem;height: 30rem;">
+    <div class="card-body">
+      <h5 class="card-title">Casamientos</h5>
+      <p class="card-text">
+        Celebra el día más importante de tu vida con elegancia y estilo. Nuestro equipo se
+        encarga de cada detalle para que tu boda sea un evento inolvidable. Desde la planificación inicial hasta la
+        ejecución en el día del evento, nos aseguramos de que cada aspecto refleje tu personalidad y visión. Desde
+        la decoración hasta la música, creamos un ambiente mágico que dejará a tus invitados maravillados.
+      </p>
+      <a href="#" class="btn btn-dark">Pedí tu  Presupuesto</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="./imagenes/evento4.png" class="card-img-top" style="height: 30rem;">
+  </div>
+
+
+</div>
+<div class="card-group">
+
+  <div class="card text-center" style="width: 18rem; height: 30rem;">
+    <div class="card-body">
+      <h5 class="card-title">Eventos Empresariales</h5>
+      <p class="card-text">
+        En el mundo corporativo, cada evento es una oportunidad para dejar una impresión duradera.Nos especializamos en la
+        planificación y ejecución de eventos empresariales que reflejen la profesionalidad y la visión de tu marca.
+        Desde la logística hasta la producción, nos encargamos de cada detalle para garantizar una experiencia
+        impecable para tus invitados. Con nuestra atención al detalle y nuestro compromiso con la excelencia, puedes
+        confiar en nosotros para hacer que tu evento empresarial sea memorable y efectivo.</p>
+      <a href="#" class="btn btn-dark">Pedí tu  Presupuesto</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="./imagenes/evento5.png" class="card-img-top" style="height: 30rem;">
+  </div>
+
+  <div class="card text-center" style="width: 18rem;height: 30rem;">
+    <div class="card-body">
+      <h5 class="card-title">Graduaciones</h5>
+      <p class="card-text">¡Celebra tus logros académicos con una fiesta que nunca olvidarás! Nuestro equipo se
+        especializa en crear experiencias memorables para graduaciones de todos los niveles. Desde la decoración
+        temática hasta la selección de música y entretenimiento, nos aseguramos de que tu graduación sea una
+        celebración única que refleje tu personalidad y éxito académico. Deja que nos encarguemos de todos los
+        detalles para que puedas disfrutar al máximo este momento especial.</p>
+      <a href="#" class="btn btn-dark">Pedí tu  Presupuesto</a>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+
+  <div class="card">
+    <img src="./imagenes/evento6.jpg" class="card-img-top" style="height: 30rem;">
+  </div>
+
+  <div class="card text-center" style="width: 18rem;height: 30rem;">
+    <div class="card-body">
+      <h5 class="card-title">Sonido e Iluminación</h5>
+      <p class="card-text">
+        Celebra el día más importante de tu vida con elegancia y estilo. Nuestro equipo se
+        encarga de cada detalle para que tu evento sea un evento inolvidable. Desde la planificación inicial hasta la
+        ejecución en el día del evento, nos aseguramos de que cada aspecto refleje tu personalidad y visión. Desde
+        la decoración hasta la música, creamos un ambiente mágico que dejará a tus invitados maravillados.
+      </p>
+      <a href="#" class="btn btn-dark">Pedí tu  Presupuesto</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="./imagenes/evento7.jpg" class="card-img-top" style="height: 30rem;">
+  </div>
+
+
+</div> -->

@@ -1,11 +1,3 @@
-body {
-  background-image: url("C:/Users/User/Desktop/proyecto/imagenes/fondo_body.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -45,6 +37,14 @@ nav {
   font-size: 26px;
 }
 
+body {
+  background-image: url("C:/Users/User/Desktop/proyecto/imagenes/fondo_body.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .recuadro {
   border: 2px solid #333;
   padding: 20px;
@@ -69,6 +69,111 @@ nav {
   height: 200px;
   justify-content: center;
   margin-left: 20px;
+}
+
+.form {
+  border: 2px solid #333;
+  padding: 20px;
+  width: 800px;
+  height: 650px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+label {
+  color: white;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 250px;
+}
+
+.card {
+  width: 18rem;
+  width: calc(25% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition: transform 0.8s ease;
+}
+
+.card-img-top {
+  height: 380px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.tarjeta {
+  margin-top: 55px;
+}
+.tarjeta h5 {
+  color: #2263c5;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+.tarjeta p {
+  text-align: justify;
+  font-family: "Indie Flower", sans-serif;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.tarjeta card-group img {
+  width: 400px !important;
+  height: 400px !important;
+}
+
+.card-body p {
+  text-align: justify;
+  margin-top: 35px;
+}
+.card-body h5 {
+  text-align: center;
+  margin-top: 45px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.title h1 {
+  color: #fff;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 35px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+.carousel img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

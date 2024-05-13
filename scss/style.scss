@@ -1,6 +1,12 @@
 //base
 
 //components
+@import "./components/navbar";
+@import "./components/body";
 
 //layouts
 @import "./layout/index";
+@import "./layout/contacto";
+@import "./layout/galeria";
+@import "./layout/nosotros";
+@import "./layout/servicios";
