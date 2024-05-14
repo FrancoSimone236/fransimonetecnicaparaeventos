@@ -38,7 +38,7 @@ nav {
 }
 
 body {
-  background-image: url("C:/Users/User/Desktop/proyecto/imagenes/fondo_body.png");
+  background-image: url("../imagenes/fondobody.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
